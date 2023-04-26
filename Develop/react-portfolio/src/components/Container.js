@@ -19,7 +19,7 @@ export default function Container() {
       return <Contact />;
     }
     if (currentPage === 'Portfolio') {
-      return <Portfolio />;
+      return <Portfolio/>;
     }
     if (currentPage === 'Resume') {
         return <Resume />;

@@ -1,12 +1,11 @@
 import React from 'react';
 import Project from '../Project'
 
-//Will come back to later
 const projectsArray = [
     {
         id: 0,
         name: "Youtube Gif Creations",
-        img: "/Users/danielletorrise/Documents/Assignments/React-Portfolio/Develop/react-portfolio/public/assets/images/Youtube-Gif-Creations.png",
+        img: "/assets/images/Youtube-Gif-Creations.png",
         alt: "screenshot of my first project, Youtube Gif Creations, in which you can search for a gif and a video. Layout is purple.",
         description: "A website in which you can create your own video using the Youtube Iframe API, Youtube Data API and Giphy API.",
         skills: "HTML, CSS, JavaScript, Youtube Data & Iframe API, Local Storage, Group Project",
@@ -16,7 +15,7 @@ const projectsArray = [
     {
         id: 1,
         name: "Clown Factory Employee Tracker",
-        img: "/Users/danielletorrise/Documents/Assignments/React-Portfolio/Develop/react-portfolio/public/assets/images/screenshot-clown-factory.png",
+        img: "/assets/images/screenshot-clown-factory.png",
         alt: "screenshot of my Clown Factory Employee Tracker",
         description: "An application that uses Inquirer and SQL to track all of the employees at Harold's Clown Factory.",
         skills: "MySQL, Modularization, Node js, Inquirer js",
@@ -26,7 +25,7 @@ const projectsArray = [
     {
         id: 2,
         name: "Ecommerce Back End",
-        img: "/Users/danielletorrise/Documents/Assignments/React-Portfolio/Develop/react-portfolio/public/assets/images/screenshot-ecommerce-backend.png",
+        img: "/assets/images/screenshot-ecommerce-backend.png",
         alt: "screenshot of Ecommerce Back End Application, the server js file.",
         description: "The back end of an ecommerce web application.",
         skills: "Sequelize, ORM, Insomnia, MVC Paradigm, APIs",
@@ -36,7 +35,7 @@ const projectsArray = [
     {
         id: 3,
         name: "Ecommerce Website: Shoe Store",
-        img: "/Users/danielletorrise/Documents/Assignments/React-Portfolio/Develop/react-portfolio/public/assets/images/screenshot-Shoe-Store.png",
+        img: "/assets/images/screenshot-Shoe-Store.png",
         alt: "screenshot of shoe store application with some shoe listings and sort function",
         description: "A group project in which we created a full stack web application of a Shoe Store. Deployed on Heroku.",
         skills: "Full Stack, Sequelize, ORM, HandleBars js Express js, Group Project",
@@ -46,7 +45,7 @@ const projectsArray = [
     {
         id: 4,
         name: "Social Media API",
-        img: "/Users/danielletorrise/Documents/Assignments/React-Portfolio/Develop/react-portfolio/public/assets/images/screenshot-social-media-api.png",
+        img: "/assets/images/screenshot-social-media-api.png",
         alt: "screenshot of insomnia endpoint for getting users",
         description: "An API that uses MongoDb to store data from a social media application. Endpoints are tested with insomnia.",
         skills: "MongoDb, Insomnia, APIs",
@@ -57,7 +56,7 @@ const projectsArray = [
     {
         id: 4,
         name: "Message a Loved One",
-        img: "/Users/danielletorrise/Documents/Assignments/React-Portfolio/Develop/react-portfolio/public/assets/images/Mini-Project-1-Screenshot.png",
+        img: "/assets/images/Mini-Project-1-Screenshot.png",
         alt: "screenshot of website with pigeon gif and image of pigeon with message in its mouth",
         description: "A spooky website I created when I was just starting out using HTML and CSS. This website also implements an SmtpJS server to send email submissions.",
         skills: "HTML, CSS, SMTPjs Server",
@@ -69,7 +68,7 @@ const projectsArray = [
 export default function Portfolio() {
     return (
         <div>
-            <h1>Projects</h1>
+            <h1 className="text-center">Projects</h1>
             <div>
                 <Project project={projectsArray[0]} />
                 <Project project={projectsArray[1]} />

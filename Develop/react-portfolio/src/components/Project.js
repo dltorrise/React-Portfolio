@@ -1,16 +1,17 @@
 import React from 'react';
 
-function Project(props) {
+function Project({project}) {
     return (
         <div>
             <section className="column">
                 <figure className="card-code">
-                    <h2 className="title">{props.name}</h2>
-                    <a href={props.deployedLink}>
-                        <img src={props.img} alt={props.alt} />
+                    <h2 className="title text-center">{project.name}</h2>
+                    <a href={project.deployedLink}>
+                        <img src={project.img} alt={project.alt} />
                     </a>
-                    <p class="info">{props.description}</p>
-                    <a href={props.githubLink}><p>GitHub Repo</p></a>
+                    <p>{project.description}</p>
+                    <p>{project.skills}</p>
+                    <a href={project.githubLink}><p>GitHub Repo</p></a>
                 </figure>
             </section>
         </div>
