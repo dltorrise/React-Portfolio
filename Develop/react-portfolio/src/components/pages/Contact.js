@@ -27,10 +27,12 @@ export default function Contact() {
 
     return (
         <div>
-            <h1 className="text-center">Contact Me</h1>
+            <h1 className="text-center text-white">Contact Me</h1>
             <form>
-                <div class="mb-3">
-                    <label for="nameInput" className="form-label">Name</label>
+                <div className="mb-3">
+                    <div className="text-center">
+                    <label for="nameInput" className="form-label text-white">Name</label>
+                    </div>
                     <input
                         className="form-control"
                         value={name}
@@ -40,8 +42,10 @@ export default function Contact() {
                         placeholder="name"
                     required/>
                 </div>
-                <div class="mb-3">
-                    <label for="emailInput" className="form-label">Email</label>
+                <div className="mb-3">
+                    <div className='text-center'>
+                    <label for="emailInput" className="form-label text-white">Email</label>
+                    </div>
                     <input
                         className="form-control"
                         value={email}
@@ -51,8 +55,10 @@ export default function Contact() {
                         placeholder="email"
                     required/>
                 </div>
-                <div class="mb-3">
-                    <label for="messageInput" className="form-label">Message</label>
+                <div className="mb-3">
+                    <div className="text-center">
+                    <label for="messageInput" className="form-label text-white">Message</label>
+                    </div>
                     <input
                         className="form-control"
                         value={message}
@@ -62,7 +68,9 @@ export default function Contact() {
                         placeholder="message"
                     required/>
                 </div>
+                <div className="text-center mb-3t text-white">
                 <button type="submit" className="btn btn-primary">Submit</button>
+                </div>
             </form>
         </div>
     );
