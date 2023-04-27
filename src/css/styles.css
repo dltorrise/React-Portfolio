@@ -1,0 +1,50 @@
+* {
+    background-color: #85C1E9;
+}
+
+.active {
+    text-shadow: -1px 1px 0 #000,
+				  1px 1px 0 #000,
+				 1px -1px 0 #000;
+			
+}
+
+@media screen and (min-width: 500px) {
+    #navigation {
+        display:  flex;
+        flex-direction: row;
+    } 
+    
+    figure {
+        display: flex;
+        justify-content: center;
+    }
+    #headshot {
+        max-width: 20%;
+        max-height: 300px;
+        object-fit: cover;
+        border-radius: 25px;
+    }
+
+    /* #footer-parent-div {
+        display: flex;
+        justify-content: center;
+    }
+
+    #logos {
+        margin-left: 10px;
+        margin-right: 10px;
+    } */
+
+    #projects-listed-div {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+
+    }
+
+    #aboutme {
+        margin-left: 100px;
+        margin-right: 100px
+    }
+}
