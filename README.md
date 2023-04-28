@@ -31,17 +31,17 @@
 
  Mobile Projects Section
  
- ![Screenshot of mobile version of projects section with projects listed horizontally]()
+ ![Screenshot of mobile version of projects section with projects listed in a vertical format]()
  
  Desktop Projects Section
  
- ![Scrreenshot of desktop version of projects section with projects listed vertically]()
+ ![Scrreenshot of desktop version of projects section with projects listed in a horizontal format](/src/assets/images/desktop-project-section.png)
   
 ## Screenshot & Link
 
 Screenshot of homepage
 
-![Screenshot of main page with headshot of myself and about me section under Header and Navigation]()
+![Screenshot of main page with headshot of myself and about me section under Header and Navigation](/src/assets/images/homepage-screenshot.png)
 
 [Deployed Link](https://dltorrise.github.io/React-Portfolio/)
   
