@@ -25,7 +25,7 @@
   
   The navigation will bring you to various parts of the portfolio. You can send me a message or even look at some of my projects. Deployed links are anchored into the screenshots. 
   
-  ### Mobile-Friendly Design
+  ### Mobile-First Design
   
   My portfolio was designed with a Mobile-First Design. As you can see the Projects section looks different in the Mobile version as it does in the Desktop version. Mobile CSS is built into the React portfolio's main CSS and Desktop CSS is added on top for screens at least 500px. 
 
