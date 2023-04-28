@@ -36,6 +36,7 @@ export default function Container() {
       {/* Here we are calling the renderPage method which will return a component  */}
       {renderPage()}
       <Footer />
+      
     </div>
   );
 }

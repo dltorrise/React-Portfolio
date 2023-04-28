@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import {send} from '@emailjs/browser'
 
 export default function Contact() {
 
@@ -23,6 +24,24 @@ export default function Contact() {
             setMessage(inputValue);
         }
     };
+
+        //email js
+
+        const sendEmail = () => {
+
+            const params = {
+                from_name: name,
+                email: email,
+                message: message
+            }
+
+            send('service_dztftnr', 'portfolio', params)
+            .then(function() {
+                console.log('SUCCESS!');
+            }, function(error) {
+                console.log('FAILED...', error);
+            });
+        }
 
     return (
         <div>
@@ -68,7 +87,7 @@ export default function Contact() {
                     required/>
                 </div>
                 <div className="text-center mb-3t text-white">
-                <button type="submit" className="btn btn-primary">Submit</button>
+                <button type="submit" onClick={sendEmail} className="btn btn-primary">Submit</button>
                 </div>
             </form>
         </div>

@@ -10,7 +10,7 @@ import photo6 from '../../assets/images/Mini-Project-1-Screenshot.png'
 const projectsArray = [
     {
         id: 0,
-        name: "Youtube Gif Creations",
+        name: "Youtube Gif Creations 📺",
         img: photo1,
         alt: "screenshot of my first project, Youtube Gif Creations, in which you can search for a gif and a video. Layout is purple.",
         description: "A website in which you can create your own video using the Youtube Iframe API, Youtube Data API and Giphy API.",
@@ -20,17 +20,17 @@ const projectsArray = [
     },
     {
         id: 1,
-        name: "Clown Factory Employee Tracker",
+        name: "Clown Factory Employee Tracker 🤡",
         img: photo2,
         alt: "screenshot of my Clown Factory Employee Tracker",
         description: "An application that uses Inquirer and SQL to track all of the employees at Harold's Clown Factory.",
-        skills: "MySQL, Modularization, Node js, Inquirer js",
+        skills: "MySQL, JavaScript, Node js, Inquirer js",
         deployedLink: "https://watch.screencastify.com/v/VR7g7D8ZPI1qzDN8yqTt",
         githubLink: "https://github.com/dltorrise/Clown-Factory-Employee-Tracker"
     },
     {
         id: 2,
-        name: "Ecommerce Back End",
+        name: "Ecommerce Back End 💸",
         img: photo3,
         alt: "screenshot of Ecommerce Back End Application, the server js file.",
         description: "The back end of an ecommerce web application.",
@@ -40,7 +40,7 @@ const projectsArray = [
     },
     {
         id: 3,
-        name: "Ecommerce Website: Shoe Store",
+        name: "Ecommerce Website: Shoe Store 👞",
         img: photo4,
         alt: "screenshot of shoe store application with some shoe listings and sort function",
         description: "A group project in which we created a full stack web application of a Shoe Store. Deployed on Heroku.",
@@ -50,7 +50,7 @@ const projectsArray = [
     },
     {
         id: 4,
-        name: "Social Media API",
+        name: "Social Media API 📱",
         img: photo5,
         alt: "screenshot of insomnia endpoint for getting users",
         description: "An API that uses MongoDb to store data from a social media application. Endpoints are tested with insomnia.",
@@ -61,7 +61,7 @@ const projectsArray = [
     },
     {
         id: 5,
-        name: "Message a Loved One",
+        name: "Message a Loved One 🕊",
         img: photo6,
         alt: "screenshot of website with pigeon gif and image of pigeon with message in its mouth",
         description: "A spooky website I created when I was just starting out using HTML and CSS. This website also implements an SmtpJS server to send email submissions.",
