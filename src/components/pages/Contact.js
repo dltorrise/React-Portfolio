@@ -26,7 +26,7 @@ export default function Contact() {
 
     return (
         <div>
-            <h1 className="text-center text-white">Contact Me</h1>
+            <h1 className="text-center text-white mb-3">Contact Me</h1>
             <form>
                 <div className="mb-3">
                     <div className="text-center">

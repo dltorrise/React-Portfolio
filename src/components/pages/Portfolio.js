@@ -1,6 +1,11 @@
 import React from 'react';
 import Project from '../Project'
 import photo1 from '../../assets/images/Youtube-Gif-Creations.png'
+import photo2 from '../../assets/images/screenshot-clown-factory.png'
+import photo3 from '../../assets/images/screenshot-ecommerce-backend.png'
+import photo4 from '../../assets/images/screenshot-Shoe-Store.png'
+import photo5 from '../../assets/images/screenshot-social-media-api.png'
+import photo6 from '../../assets/images/Mini-Project-1-Screenshot.png'
 
 const projectsArray = [
     {
@@ -16,7 +21,7 @@ const projectsArray = [
     {
         id: 1,
         name: "Clown Factory Employee Tracker",
-        img: "/assets/images/screenshot-clown-factory.png",
+        img: photo2,
         alt: "screenshot of my Clown Factory Employee Tracker",
         description: "An application that uses Inquirer and SQL to track all of the employees at Harold's Clown Factory.",
         skills: "MySQL, Modularization, Node js, Inquirer js",
@@ -26,7 +31,7 @@ const projectsArray = [
     {
         id: 2,
         name: "Ecommerce Back End",
-        img: "/assets/images/screenshot-ecommerce-backend.png",
+        img: photo3,
         alt: "screenshot of Ecommerce Back End Application, the server js file.",
         description: "The back end of an ecommerce web application.",
         skills: "Sequelize, ORM, Insomnia, MVC Paradigm, APIs",
@@ -36,7 +41,7 @@ const projectsArray = [
     {
         id: 3,
         name: "Ecommerce Website: Shoe Store",
-        img: "/assets/images/screenshot-Shoe-Store.png",
+        img: photo4,
         alt: "screenshot of shoe store application with some shoe listings and sort function",
         description: "A group project in which we created a full stack web application of a Shoe Store. Deployed on Heroku.",
         skills: "Full Stack, Sequelize, ORM, HandleBars js Express js, Group Project",
@@ -46,7 +51,7 @@ const projectsArray = [
     {
         id: 4,
         name: "Social Media API",
-        img: "/assets/images/screenshot-social-media-api.png",
+        img: photo5,
         alt: "screenshot of insomnia endpoint for getting users",
         description: "An API that uses MongoDb to store data from a social media application. Endpoints are tested with insomnia.",
         skills: "MongoDb, Insomnia, APIs",
@@ -55,9 +60,9 @@ const projectsArray = [
         githubLink: "https://github.com/dltorrise/social-media-backend"
     },
     {
-        id: 4,
+        id: 5,
         name: "Message a Loved One",
-        img: "/assets/images/Mini-Project-1-Screenshot.png",
+        img: photo6,
         alt: "screenshot of website with pigeon gif and image of pigeon with message in its mouth",
         description: "A spooky website I created when I was just starting out using HTML and CSS. This website also implements an SmtpJS server to send email submissions.",
         skills: "HTML, CSS, SMTPjs Server",

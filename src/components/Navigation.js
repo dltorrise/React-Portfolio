@@ -4,9 +4,9 @@ import React from 'react';
 // We assign them to their own variable names
 function Navigation({ currentPage, handlePageChange }) {
   return (
-    <ul id="navigation" className="d-flex flex-column nav navbar">
-      <li className="nav-item">
-        <a
+    <ul style={{backgroundColor: "#2874A6"}} id="navigation" className="d-flex flex-column nav navbar">
+      <li  className="nav-item">
+        <a style={{backgroundColor: "#2874A6"}}
           href="#about-me"
           onClick={() => handlePageChange('AboutMe')}
           // Check to see if the currentPage is `About`, and if so we use the active link class from bootstrap. Otherwise, we set it to a normal nav-link
@@ -16,7 +16,7 @@ function Navigation({ currentPage, handlePageChange }) {
         </a>
       </li>
       <li className="nav-item">
-        <a
+        <a style={{backgroundColor: "#2874A6"}}
           href="#projects"
           onClick={() => handlePageChange('Portfolio')}
           // Check to see if the currentPage is `Blog`, and if so we use the active link class from bootstrap. Otherwise, we set it to a normal nav-link
@@ -26,7 +26,7 @@ function Navigation({ currentPage, handlePageChange }) {
         </a>
       </li>
       <li className="nav-item">
-        <a
+        <a style={{backgroundColor: "#2874A6"}}
           href="#resume"
           onClick={() => handlePageChange('Resume')}
           // Check to see if the currentPage is `Blog`, and if so we use the active link class from bootstrap. Otherwise, we set it to a normal nav-link
@@ -36,7 +36,7 @@ function Navigation({ currentPage, handlePageChange }) {
         </a>
       </li>
       <li className="nav-item">
-        <a
+        <a style={{backgroundColor: "#2874A6"}}
           href="#contact"
           onClick={() => handlePageChange('Contact')}
           // Check to see if the currentPage is `Contact`, and if so we use the active link class from bootstrap. Otherwise, we set it to a normal nav-link
