@@ -3,7 +3,7 @@
 }
 
 .active {
-    text-shadow: -1px 1px 5px #000, -1px 1px 5px #000, -1px 1px 5px #000;
+    text-shadow: -1px 1px 1px #000, -1px 1px 1px #000, -1px 1px 1px #000;
 
 			
 }
@@ -51,8 +51,22 @@
         display: flex;
         flex-wrap: wrap;
         flex-direction: column;
-        margin-left: 50px;
+        margin-left: 15px;
         margin-right: 50px;
+    }
+
+    figure p {
+        align-self: center;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+
+    figure a {
+        align-self: center;
+    }
+
+    figure h2 {
+        align-self: center;
     }
 
     input {
