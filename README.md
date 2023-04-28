@@ -31,7 +31,7 @@
 
  Mobile Projects Section
  
- ![Screenshot of mobile version of projects section with projects listed in a vertical format]()
+ ![Screenshot of mobile version of projects section with projects listed in a vertical format](/src/assets/images/mobile-project-section.jpg)
  
  Desktop Projects Section
  
@@ -39,7 +39,7 @@
   
 ## Screenshot & Link
 
-Screenshot of homepage
+Screenshot of homepage (desktop version)
 
 ![Screenshot of main page with headshot of myself and about me section under Header and Navigation](/src/assets/images/homepage-screenshot.png)
 
