@@ -5,7 +5,7 @@ function Project({project}) {
         <div>
             <section className="column">
                 <figure className="card-code">
-                    <h2 className="title text-left text-white">{project.name}</h2>
+                    <h2 className="title text-white">{project.name}</h2>
                     <a href={project.deployedLink}>
                         <img className="border border-white border-2" style={{width:"100vw", height:"auto"}} src={project.img} alt={project.alt} />
                     </a>
