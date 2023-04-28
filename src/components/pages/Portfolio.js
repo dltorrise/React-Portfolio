@@ -1,11 +1,12 @@
 import React from 'react';
 import Project from '../Project'
+import photo1 from '../../assets/images/Youtube-Gif-Creations.png'
 
 const projectsArray = [
     {
         id: 0,
         name: "Youtube Gif Creations",
-        img: "/assets/images/Youtube-Gif-Creations.png",
+        img: photo1,
         alt: "screenshot of my first project, Youtube Gif Creations, in which you can search for a gif and a video. Layout is purple.",
         description: "A website in which you can create your own video using the Youtube Iframe API, Youtube Data API and Giphy API.",
         skills: "HTML, CSS, JavaScript, Youtube Data & Iframe API, Local Storage, Group Project",
