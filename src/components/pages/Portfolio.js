@@ -56,7 +56,7 @@ const projectsArray = [
         description: "An API that uses MongoDb to store data from a social media application. Endpoints are tested with insomnia.",
         skills: "MongoDb, Insomnia, APIs",
         //have to change this link
-        deployedLink: "https://dltorrise.github.io/Message-a-Loved-One/",
+        deployedLink: "https://www.youtube.com/watch?v=92qUAcp7H30",
         githubLink: "https://github.com/dltorrise/social-media-backend"
     },
     {
