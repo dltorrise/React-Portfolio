@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/React-Portfolio/static/css/main.d19686f5.css",
-    "main.js": "/React-Portfolio/static/js/main.65bfea61.js",
+    "main.css": "/React-Portfolio/static/css/main.2051fbf4.css",
+    "main.js": "/React-Portfolio/static/js/main.fb40af47.js",
     "static/media/screenshot-clown-factory.png": "/React-Portfolio/static/media/screenshot-clown-factory.202fd95c13217e89da72.png",
     "static/media/screenshot-Shoe-Store.png": "/React-Portfolio/static/media/screenshot-Shoe-Store.6430ec865cbca772a9b2.png",
     "static/media/screenshot-social-media-api.png": "/React-Portfolio/static/media/screenshot-social-media-api.ef8eef95067cdb6969c5.png",
@@ -11,11 +11,11 @@
     "static/media/Youtube-Gif-Creations.png": "/React-Portfolio/static/media/Youtube-Gif-Creations.d65d9db14aa8e500daef.png",
     "static/media/linkedin.png": "/React-Portfolio/static/media/linkedin.e9db41041d38d6fb97b4.png",
     "index.html": "/React-Portfolio/index.html",
-    "main.d19686f5.css.map": "/React-Portfolio/static/css/main.d19686f5.css.map",
-    "main.65bfea61.js.map": "/React-Portfolio/static/js/main.65bfea61.js.map"
+    "main.2051fbf4.css.map": "/React-Portfolio/static/css/main.2051fbf4.css.map",
+    "main.fb40af47.js.map": "/React-Portfolio/static/js/main.fb40af47.js.map"
   },
   "entrypoints": [
-    "static/css/main.d19686f5.css",
-    "static/js/main.65bfea61.js"
+    "static/css/main.2051fbf4.css",
+    "static/js/main.fb40af47.js"
   ]
 }
