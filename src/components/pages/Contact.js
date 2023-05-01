@@ -35,12 +35,15 @@ export default function Contact() {
                 message: message
             }
 
-            send('service_dztftnr', 'portfolio', params)
+            send('service_dztftnr', 'template_nvw7eio', params, 'qukBqykWhP91vWVIT')
             .then(function() {
                 console.log('SUCCESS!');
+                window.location.reload()
             }, function(error) {
                 console.log('FAILED...', error);
             });
+
+           
         }
 
     return (
